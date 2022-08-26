@@ -1,1 +1,19 @@
-
+.featureContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  gap: 30px;
+}
+.placeHeading {
+  width: 100%;
+  max-width: 1024px;
+}
+.cright {
+  width: 100%;
+  max-width: 1024px;
+  color: var(--btnColor);
+  font-size: 14px;
+  font-weight: 300;
+  padding-bottom: 20px;
+}

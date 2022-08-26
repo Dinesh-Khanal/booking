@@ -1,0 +1,11 @@
+.bottomFooter {
+  width: 95%;
+  display: flex;
+  padding: 0px 30px;
+  margin-bottom: 30px;
+}
+.footerlist {
+  color: var(--btnColor);
+  list-style: none;
+  flex: 1;
+}

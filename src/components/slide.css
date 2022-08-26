@@ -1,0 +1,8 @@
+.placeSlider {
+  width: 100%;
+  max-width: 1024px;
+}
+.splide__slide img {
+  width: 100%;
+  object-fit: cover;
+}

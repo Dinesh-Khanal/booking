@@ -1,0 +1,38 @@
+.footerEmail {
+  background-color: var(--blue);
+  width: 100%;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 10px;
+}
+.footerEmail__maintxt {
+  font-size: 24px;
+  font-weight: 300;
+}
+.footerEmail__subtxt {
+  font-size: 18px;
+  font-weight: 300;
+  color: #ccc;
+}
+.footerEmail__form-input {
+  margin-top: 20px;
+}
+.footerEmail__form-input button {
+  padding: 12px;
+  font-size: 18px;
+  color: white;
+  background-color: var(--btnColor);
+  border: none;
+  border-radius: 5px;
+  margin-left: 2px;
+}
+.footerEmail__form-input input {
+  width: 350px;
+  padding: 12px;
+  font-size: 18px;
+  outline: none;
+  border-radius: 5px;
+}

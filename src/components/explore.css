@@ -1,0 +1,21 @@
+.explorer {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  gap: 15px;
+}
+.exploreItem {
+  flex: 1;
+}
+.exploreItem img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.exploreItem h2 {
+  font-size: 15px;
+}
+.exploreItem p {
+  font-size: 12px;
+}
