@@ -1,0 +1,160 @@
+.ListWrapper {
+  display: flex;
+  justify-content: center;
+}
+.ListContainer {
+  width: 100%;
+  max-width: 1024px;
+}
+.ListSearchContainer {
+  display: flex;
+  gap: 20px;
+  color: #444;
+}
+.ListSearch {
+  flex: 1;
+  background-color: #febb02;
+  padding: 15px;
+  border-radius: 5px;
+  position: sticky;
+  top: 0;
+  height: 80vh;
+}
+.ListSearchResult {
+  flex: 3;
+}
+.ListDt {
+  position: relative;
+  padding-left: 25px !important;
+}
+.ListDt svg {
+  position: absolute;
+  left: 5px;
+  top: 12px;
+}
+.ListDt,
+.ListOption {
+  background-color: white;
+}
+.ListDt,
+.ListSearch input,
+.ListOption {
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.ListOption {
+  margin-top: 20px;
+}
+.breadCrum {
+  padding: 20px 0px;
+  color: var(--btnColor);
+}
+.ListSearchBtn {
+  background-color: var(--btnColor);
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 15px;
+  width: 100%;
+  font-size: 18px;
+}
+.check {
+  margin-bottom: 10px;
+}
+.check label {
+  margin-left: 5px;
+}
+.check input[type="checkbox"] {
+  width: auto;
+}
+.SearchResult {
+  width: 100%;
+}
+.ListSearchInput {
+  position: relative;
+}
+.ListSearch input {
+  padding-left: 25px;
+}
+.ListSearchInput svg {
+  position: absolute;
+  top: 10px;
+  left: 5px;
+}
+.SrHeader {
+  display: flex;
+  justify-content: space-between;
+}
+.SrHeader button {
+  padding: 5px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--btnColor);
+  color: white;
+  outline: none;
+}
+.SrTable {
+  color: var(--btnColor);
+  cursor: pointer;
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.SrTable td {
+  padding: 10px;
+  font-size: 13px;
+  font-weight: 400;
+  border: 1px solid var(--btnColor);
+}
+.SrTable tr td:first-child {
+  background-color: var(--btnColor);
+  color: White;
+}
+.SrElement {
+  color: #666;
+  font-size: smaller;
+  border: 1px solid blue;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 3px;
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+.SrElement img {
+  width: 220px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.SrerItem {
+  display: flex;
+  gap: 8px;
+}
+.SrerStatus {
+  text-align: right;
+}
+.SrerRating {
+  background-color: var(--btnColor);
+  color: White;
+  padding: 5px;
+  margin: 3px;
+  border-radius: 10px 3px;
+}
+.SrElementReaction button {
+  background-color: var(--btnColor);
+  color: white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  margin-left: auto;
+  display: block;
+}
+.SrElementDesc p {
+  margin-top: 20px;
+}
