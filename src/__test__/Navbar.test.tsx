@@ -1,6 +1,6 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
-import "@testing-library/jest-dom/extend-expect";
+import "@testing-library/jest-dom";
 import Navbar from "../components/navbar/Navbar";
 import userEvent from "@testing-library/user-event";
 
